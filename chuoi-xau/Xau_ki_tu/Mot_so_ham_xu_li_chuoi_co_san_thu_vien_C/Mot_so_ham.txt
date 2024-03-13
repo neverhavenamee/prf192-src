@@ -1,0 +1,45 @@
+Trước khi muốn dùng các hàm xử lí chuỗi phải khai báo thư viện string.h
+*Các hàm dùng để check:
+- int islower(char c): hàm này trả về gt là 1 nếu là chữ thường và 0 nếu ngược lại
+
+- int isupper(char c): hàm này trả về gt là 1 nếu là chữ hoa và 0 nếu ngược lại
+
+- int isalpha(char c): hàm này trả về gt là 1 nếu là chữ cái và 0 nếu ngược lại
+
+- int isdigit(char c): hàm này trả về gt là 1 nếu là chữ số và 0 nếu ngược lại
+
+*Hàm để chuyển 1 kí tự:
+- char tolower(char c): hàm này trả về gt là kiểu kí tự nhưng chuyển từ in hoa sang in thường
+
+- char toupper(char c): hàm này trả về gt là kiểu kí tự nhưng chuyển từ in thường sang in hoa
+
+*Chuyển xâu số thành số:
+- int atoi(char c[]): hàm này trả về gt kiểu int và chuyển xâu kí tự số thành số(atoi viết tắt của ASCII to integer)
+
+- long long atoll(char c[]): hàm này trả về gt kiểu long long và chuyển xâu kí tự số thành số(atoll viết tắt của ASCII to long long)
+
+*Một số hàm khác:
+- int strlen(char c[]): hàm này trả về gt là chiều dài của xâu (strlen viết tắt của string length)
+
+- int strcmp(char c[],char d[]): hàm này trả về gt là -1 0 1(strcmp viết tắt của string compare)
+
++ 1 khi c>d
++ 0 khi c=d
++ -1 khi c<d
+
+- int strcmpi(char c[],char d[]): tương tự như hàm strcmp nhưng hàm này không phân biệt in hoa đối với tham số nhập vào 
+
+- char*strstr(char c[],char d[]): nếu chuỗi d là xâu con của chuỗi c thì trả về con trỏ trỏ tới vị trí đầu của chuỗi d ngược lại thì trả về con trỏ NULL
+
+- char* strrev(char c[]): hàm này trả về gt là con trỏ c với việc đảo ngược xâu (strrev viết tắt của string reverse)
+
+- char* strlwr(char c[]): hàm này trả về gt là con trỏ c với việc chuyển xâu thành in thường (strlwr viết tắt của string lower)(có thể trong phiên bản C cao hơn ko có hàm này)
+
+- char* strupr(char c[]): hàm này trả về gt là con trỏ c với việc chuyển xâu thành in hoa (strupr viết tắt của string upper)(có thể trong phiên bản C cao hơn ko có hàm này)
+
+- char* strcpy(char c[],char d[]): hàm này trả về gt là con trỏ c với việc xâu c mang gt của xâu d  (strcpy viết tắt của string copy ) 
+
++VD c[100]="nghia";d[100]="thang";->c="thang";d="thang";
+
+- char* strcat(char c[],char d[]): hàm này trả về gt là con trỏ c với việc nối xâu c với xâu d (strcat viết tắt của string concatenate nghĩa là nối xâu)
+

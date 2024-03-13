@@ -1,0 +1,9 @@
+Thuật toán Kadane:
+VD Tìm dãy con liên tiếp có tổng các phần tử lớn nhất
+-Tạo 2 biến sum có gt khởi tạo ban đầu bằng 0
+-Cho biến sum1 + với phần tử 1 nếu kết quả ra là âm thì khởi tạo về gt 0 còn nếu dương mà có giá trị > sum2
+Thì gán sum2 với giá trị đó
+-Tiếp tục với các phần tử sau 
+VD dãy -1 2 8 -3 9 -2 5 
+sum1=0->sum1=-1 chuyển về sum1=0->sum1=2...->sum1=19
+sum2=0->sum2=0->sum2=2(sum1(=2)>sum2)..->sum2=19

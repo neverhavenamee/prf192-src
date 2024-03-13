@@ -1,0 +1,6 @@
+những bài liên quan đến việc liệt kê các dãy con hay làm việc với từng phần tử trong dãy con 
+Sẽ thường liên quan đến cửa sổ
+Ta cần những thứ sau:
+-Chỉ sô đầu tiên của từng cửa sổ (dãy con)
+-Số phần tử của cửa sổ đó (của dãy con đó)
+-Số cửa sổ(số dãy con trong mảng)
